@@ -1,4 +1,10 @@
-# hello
+# Ajax封装
+
+### 
+* 封装Ajax请求为Util工具函数
+* Ajax请求支持token的开启和关闭
+* Ajax请求支持get，post和postByForm类型
+
 
 ## Project setup
 ```
