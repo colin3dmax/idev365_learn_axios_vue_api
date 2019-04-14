@@ -1,7 +1,11 @@
 # idev365_learn_axios_vue_api
 
-## 学习内容
-如何在Vue项目中使用axios和后台API进行通讯
+### 学习内容
+* Ajax封装
+* 封装Ajax请求为Util工具函数
+* Ajax请求支持token的开启和关闭
+* Ajax请求支持get，post和postByForm类型
+
 
 ### 知识点
 * Vue下的proxy配置
