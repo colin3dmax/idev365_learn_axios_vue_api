@@ -6,6 +6,14 @@ const port = 3000;
 app.use(express.json());
 app.use(express.urlencoded());
 
+app.get('/api/info-no-token', (req, res) => {
+    const result = {
+        code: 0,
+        message: "不需要token",
+    }
+    res.send( result );
+});
+
 app.post('/api/login', (req, res) => {
     console.log('/api/login-->获取浏览器发来的json参数：',req.body)
     const result = {

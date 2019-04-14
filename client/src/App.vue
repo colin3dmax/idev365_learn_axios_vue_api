@@ -11,6 +11,9 @@ export default {
   name: 'app',
   created(){
     // 测试API
+    Api.getInfoNoToken().then(resp=>{
+      console.log("getInfoNoToken->data",resp.data);
+    });
     Api.getUserInfo().then(resp=>{
       console.log("getUserInfo->data",resp.data);
     });
